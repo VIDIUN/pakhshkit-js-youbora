@@ -18,11 +18,11 @@ if (PROD) {
 
 module.exports = {
   context: __dirname + '/src',
-  entry: {'playkit-youbora': 'index.js'},
+  entry: {'pakhshkit-youbora': 'index.js'},
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    library: ['KalturaPlayer', 'plugins', 'youbora'],
+    library: ['VidiunPlayer', 'plugins', 'youbora'],
     libraryTarget: 'umd',
     devtoolModuleFilenameTemplate: './youbora/[resource-path]'
   },
@@ -63,11 +63,11 @@ module.exports = {
     modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   externals: {
-    '@playkit-js/playkit-js': {
-      commonjs: '@playkit-js/playkit-js',
-      commonjs2: '@playkit-js/playkit-js',
-      amd: '@playkit-js/playkit-js',
-      root: ['KalturaPlayer', 'core']
+    '@pakhshkit-js/pakhshkit-js': {
+      commonjs: '@pakhshkit-js/pakhshkit-js',
+      commonjs2: '@pakhshkit-js/pakhshkit-js',
+      amd: '@pakhshkit-js/pakhshkit-js',
+      root: ['VidiunPlayer', 'core']
     }
   }
 };

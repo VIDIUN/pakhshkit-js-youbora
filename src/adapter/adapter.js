@@ -1,6 +1,6 @@
 // @flow
 import youbora from 'youboralib';
-import {Error, MediaType} from '@playkit-js/playkit-js';
+import {Error, MediaType} from '@pakhshkit-js/pakhshkit-js';
 
 declare var __VERSION__: string;
 declare var __NAME__: string;
@@ -104,8 +104,8 @@ let YouboraAdapter = youbora.StandardAdapter.extend({
   },
 
   /** @returns {void}
-   * @param {Object} logger - playkit logger object.
-   * - Bind youbora logs to playkit ones */
+   * @param {Object} logger - pakhshkit logger object.
+   * - Bind youbora logs to pakhshkit ones */
   bindLogger: function(logger) {
     youbora.Log.error = logger.error.bind(logger);
     youbora.Log.notice = logger.info.bind(logger);

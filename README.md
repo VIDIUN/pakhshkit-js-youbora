@@ -1,13 +1,13 @@
-# PlayKit JS Youbora - [Youbora analytics SDK] plugin for the [PlayKit JS Player]
+# PakhshKit JS Youbora - [Youbora analytics SDK] plugin for the [PakhshKit JS Player]
 
-[![Build Status](https://travis-ci.org/kaltura/playkit-js-youbora.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-youbora)
+[![Build Status](https://travis-ci.org/vidiun/pakhshkit-js-youbora.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-youbora)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-youbora/latest.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-youbora)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-youbora/canary.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-youbora/v/canary)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-youbora/latest.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-youbora)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-youbora/canary.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-youbora/v/canary)
 
-PlayKit JS Youbora plugin integrates [Youbora analytics SDK] with the [PlayKit JS Player].
+PakhshKit JS Youbora plugin integrates [Youbora analytics SDK] with the [PakhshKit JS Player].
 
-PlayKit JS Youbora is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS Youbora is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [youbora analytics sdk]: https://nicepeopleatwork.com/youbora/
 [npaw developer portal]: http://developer.nicepeopleatwork.com/
@@ -19,11 +19,11 @@ PlayKit JS Youbora is written in [ECMAScript6], statically analysed using [Flow]
 
 ### Prerequisites
 
-The plugin requires [PlayKit JS Player] to be loaded first.
+The plugin requires [PakhshKit JS Player] to be loaded first.
 
 The plugin uses the [Youbora analytics SDK] for HTML5.
 
-[playkit js player]: https://github.com/kaltura/playkit-js
+[pakhshkit js player]: https://github.com/vidiun/pakhshkit-js
 
 ### Installing
 
@@ -32,8 +32,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-youbora.git
-cd playkit-js-youbora
+git clone https://github.com/vidiun/pakhshkit-js-youbora.git
+cd pakhshkit-js-youbora
 yarn install
 ```
 
@@ -50,8 +50,8 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/playkit.js"></script>
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-youbora.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit.js"></script>
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-youbora.js"></script>
 <div id="player-placeholder" style="height:360px; width:640px">
 <script type="text/javascript">
 var playerContainer = document.querySelector("#player-placeholder");
@@ -66,7 +66,7 @@ var config = {
  }
  ...
 };
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 playerContainer.appendChild(player.getView());
 player.play();
 </script>
@@ -113,7 +113,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-youbora/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-youbora/tags).
 
 ## License
 
