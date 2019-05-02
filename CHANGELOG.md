@@ -13,111 +13,111 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 <a name="1.1.0"></a>
-# [1.1.0](https://github.com/kaltura/playkit-js-youbora/compare/v0.4.2...v1.1.0) (2019-01-30)
+# [1.1.0](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.4.2...v1.1.0) (2019-01-30)
 
 
 ### Features
 
-* youbora v6 plugin update ([#19](https://github.com/kaltura/playkit-js-youbora/issues/19)) ([715ce34](https://github.com/kaltura/playkit-js-youbora/commit/715ce34))
+* youbora v6 plugin update ([#19](https://github.com/vidiun/pakhshkit-js-youbora/issues/19)) ([715ce34](https://github.com/vidiun/pakhshkit-js-youbora/commit/715ce34))
 
 
 
 <a name="0.4.2"></a>
-## [0.4.2](https://github.com/kaltura/playkit-js-youbora/compare/v0.4.1...v0.4.2) (2018-07-02)
+## [0.4.2](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.4.1...v0.4.2) (2018-07-02)
 
 
 ### Bug Fixes
 
-* **FEC-8190:** stop tracking on critical error ([#23](https://github.com/kaltura/playkit-js-youbora/issues/23)) ([c24c24d](https://github.com/kaltura/playkit-js-youbora/commit/c24c24d))
+* **FEC-8190:** stop tracking on critical error ([#23](https://github.com/vidiun/pakhshkit-js-youbora/issues/23)) ([c24c24d](https://github.com/vidiun/pakhshkit-js-youbora/commit/c24c24d))
 
 
 
 <a name="0.4.1"></a>
-## [0.4.1](https://github.com/kaltura/playkit-js-youbora/compare/v0.4.0...v0.4.1) (2018-05-21)
+## [0.4.1](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.4.0...v0.4.1) (2018-05-21)
 
 
 ### Bug Fixes
 
-* **FEC-8227:** report only critical errors ([#21](https://github.com/kaltura/playkit-js-youbora/issues/21)) ([7b739ee](https://github.com/kaltura/playkit-js-youbora/commit/7b739ee))
+* **FEC-8227:** report only critical errors ([#21](https://github.com/vidiun/pakhshkit-js-youbora/issues/21)) ([7b739ee](https://github.com/vidiun/pakhshkit-js-youbora/commit/7b739ee))
 
 
 
 <a name="0.4.0"></a>
-# [0.4.0](https://github.com/kaltura/playkit-js-youbora/compare/v0.3.3...v0.4.0) (2018-05-10)
+# [0.4.0](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.3.3...v0.4.0) (2018-05-10)
 
 
 ### Features
 
-* serve youbora as external bundle ([#20](https://github.com/kaltura/playkit-js-youbora/issues/20)) ([ca1c85b](https://github.com/kaltura/playkit-js-youbora/commit/ca1c85b))
+* serve youbora as external bundle ([#20](https://github.com/vidiun/pakhshkit-js-youbora/issues/20)) ([ca1c85b](https://github.com/vidiun/pakhshkit-js-youbora/commit/ca1c85b))
 
 
 
 <a name="0.3.3"></a>
-## [0.3.3](https://github.com/kaltura/playkit-js-youbora/compare/v0.3.1...v0.3.3) (2018-02-06)
+## [0.3.3](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.3.1...v0.3.3) (2018-02-06)
 
 
 ### Bug Fixes
 
-* update env (docs and namespace) ([45a111c](https://github.com/kaltura/playkit-js-youbora/commit/45a111c))
-* **webpack:** playkit core externals root value ([#18](https://github.com/kaltura/playkit-js-youbora/issues/18)) ([a7fb0bd](https://github.com/kaltura/playkit-js-youbora/commit/a7fb0bd))
+* update env (docs and namespace) ([45a111c](https://github.com/vidiun/pakhshkit-js-youbora/commit/45a111c))
+* **webpack:** pakhshkit core externals root value ([#18](https://github.com/vidiun/pakhshkit-js-youbora/issues/18)) ([a7fb0bd](https://github.com/vidiun/pakhshkit-js-youbora/commit/a7fb0bd))
 
 
 
 <a name="0.3.2"></a>
-## [0.3.2](https://github.com/kaltura/playkit-js-youbora/compare/v0.3.1...v0.3.2) (2018-01-10)
+## [0.3.2](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.3.1...v0.3.2) (2018-01-10)
 
 
 ### Bug Fixes
 
-* update env (docs and namespace) ([45a111c](https://github.com/kaltura/playkit-js-youbora/commit/45a111c))
+* update env (docs and namespace) ([45a111c](https://github.com/vidiun/pakhshkit-js-youbora/commit/45a111c))
 
 
 
 <a name="0.3.1"></a>
-## [0.3.1](https://github.com/kaltura/playkit-js-youbora/compare/v0.3.0...v0.3.1) (2017-12-12)
+## [0.3.1](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.3.0...v0.3.1) (2017-12-12)
 
 
 ### Bug Fixes
 
-* **FEC-7533:** BufferUnderrun event not fired during throttling ([#17](https://github.com/kaltura/playkit-js-youbora/issues/17)) ([d453a41](https://github.com/kaltura/playkit-js-youbora/commit/d453a41))
+* **FEC-7533:** BufferUnderrun event not fired during throttling ([#17](https://github.com/vidiun/pakhshkit-js-youbora/issues/17)) ([d453a41](https://github.com/vidiun/pakhshkit-js-youbora/commit/d453a41))
 
 
 
 <a name="0.3.0"></a>
-# [0.3.0](https://github.com/kaltura/playkit-js-youbora/compare/v0.2.0...v0.3.0) (2017-11-16)
+# [0.3.0](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.2.0...v0.3.0) (2017-11-16)
 
 
 ### Features
 
-* export name and version on module ([#13](https://github.com/kaltura/playkit-js-youbora/issues/13)) ([8490b14](https://github.com/kaltura/playkit-js-youbora/commit/8490b14))
+* export name and version on module ([#13](https://github.com/vidiun/pakhshkit-js-youbora/issues/13)) ([8490b14](https://github.com/vidiun/pakhshkit-js-youbora/commit/8490b14))
 
 
 
 <a name="0.2.0"></a>
-# [0.2.0](https://github.com/kaltura/playkit-js-youbora/compare/v0.1.2...v0.2.0) (2017-10-23)
+# [0.2.0](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.1.2...v0.2.0) (2017-10-23)
 
 
 ### Features
 
-* change media ([#11](https://github.com/kaltura/playkit-js-youbora/issues/11)) ([ccd0a69](https://github.com/kaltura/playkit-js-youbora/commit/ccd0a69))
+* change media ([#11](https://github.com/vidiun/pakhshkit-js-youbora/issues/11)) ([ccd0a69](https://github.com/vidiun/pakhshkit-js-youbora/commit/ccd0a69))
 
 
 
 <a name="0.1.2"></a>
-## [0.1.2](https://github.com/kaltura/playkit-js-youbora/compare/v0.1.1...v0.1.2) (2017-09-26)
+## [0.1.2](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.1.1...v0.1.2) (2017-09-26)
 
 ### Features
 
-* get player data from own config ([#10](https://github.com/kaltura/playkit-js-youbora/issues/10)) ([e1c57f2](https://github.com/kaltura/playkit-js-youbora/commit/e1c57f2))
+* get player data from own config ([#10](https://github.com/vidiun/pakhshkit-js-youbora/issues/10)) ([e1c57f2](https://github.com/vidiun/pakhshkit-js-youbora/commit/e1c57f2))
 
 
 <a name="0.1.1"></a>
-## [0.1.1](https://github.com/kaltura/playkit-js-youbora/compare/v0.1.0...v0.1.1) (2017-08-23)
+## [0.1.1](https://github.com/vidiun/pakhshkit-js-youbora/compare/v0.1.0...v0.1.1) (2017-08-23)
 
 
 ### Bug Fixes
 
-* **build:** fix webpack dependencies and build ([f2667f8](https://github.com/kaltura/playkit-js-youbora/commit/f2667f8))
+* **build:** fix webpack dependencies and build ([f2667f8](https://github.com/vidiun/pakhshkit-js-youbora/commit/f2667f8))
 
 
 
@@ -127,10 +127,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-* **.gitignore:** fix gitignore ([c9ea46e](https://github.com/kaltura/playkit-js-youbora/commit/c9ea46e))
+* **.gitignore:** fix gitignore ([c9ea46e](https://github.com/vidiun/pakhshkit-js-youbora/commit/c9ea46e))
 
 
 ### Features
 
-* **youbora plugin:** init youbora plugin implementation ([#1](https://github.com/kaltura/playkit-js-youbora/issues/1)) ([c301d80](https://github.com/kaltura/playkit-js-youbora/commit/c301d80))
-* refactor youbora implementation ([#6](https://github.com/kaltura/playkit-js-youbora/issues/6)) ([aa864c2](https://github.com/kaltura/playkit-js-youbora/commit/aa864c2))
+* **youbora plugin:** init youbora plugin implementation ([#1](https://github.com/vidiun/pakhshkit-js-youbora/issues/1)) ([c301d80](https://github.com/vidiun/pakhshkit-js-youbora/commit/c301d80))
+* refactor youbora implementation ([#6](https://github.com/vidiun/pakhshkit-js-youbora/issues/6)) ([aa864c2](https://github.com/vidiun/pakhshkit-js-youbora/commit/aa864c2))

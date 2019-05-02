@@ -1,5 +1,5 @@
 //@flow
-import {BasePlugin} from '@playkit-js/playkit-js';
+import {BasePlugin} from '@pakhshkit-js/pakhshkit-js';
 import youbora from 'youboralib';
 import {YouboraAdapter} from './adapter/adapter';
 import {NativeAdsAdapter} from './adapter/ads/nativeads';
@@ -77,7 +77,7 @@ class Youbora extends BasePlugin {
   _addPlayerMetadata(): void {
     this._youbora.setOptions({
       'content.metadata': {
-        kalturaInfo: {
+        vidiunInfo: {
           entryId: this.config.entryId,
           sessionId: this.config.sessionId,
           uiConfId: this.config.uiConfId

@@ -29,7 +29,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@playkit-js/playkit-js": "^0.44.1",
+    "@pakhshkit-js/pakhshkit-js": "^0.44.1",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.1",
@@ -78,30 +78,30 @@
     "youboralib": "6.3.2"
   },
   "peerDependencies": {
-    "@playkit-js/playkit-js": "^0.44.1"
+    "@pakhshkit-js/pakhshkit-js": "^0.44.1"
   },
   "keywords": [
-    "kaltura",
+    "vidiun",
     "analytics",
     "youbora",
     "NPAW",
     "QOE",
     "QOS",
     "player",
-    "playkit-js",
-    "playkit-js-youbora",
+    "pakhshkit-js",
+    "pakhshkit-js-youbora",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-youbora.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-youbora.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-youbora/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-youbora/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-youbora#readme",
-  "kcc": {
-    "name": "playkit-youbora"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-youbora#readme",
+  "vcc": {
+    "name": "pakhshkit-youbora"
   }
 }

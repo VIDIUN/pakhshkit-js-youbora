@@ -1,3 +1,3 @@
-import * as Playkit from '@playkit-js/playkit-js';
+import * as Pakhshkit from '@pakhshkit-js/pakhshkit-js';
 
-window.Playkit = Playkit;
+window.Pakhshkit = Pakhshkit;
